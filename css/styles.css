@@ -1,0 +1,59 @@
+  body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #1f5ea5;
+            color: aliceblue;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        #year{
+            width: 30%;
+        }
+
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            div{
+                display: flex;
+                flex-direction: column;
+                button{
+                    width: 5rem;
+                    margin-top: 1rem;
+                  
+                }
+            }
+        }
+        h1{
+            text-decoration: underline;
+            background-color: #1f5ea5;
+            padding: 1rem;
+            color: aliceblue;
+        }
+        .delete-btn{
+            all: unset;
+        }
+        .delete-btn:hover{
+            cursor: pointer;
+        }
+        .remove{
+            display: none;
+        }
